@@ -1,0 +1,23 @@
+{
+  "name": "desafio_backend_pleno",
+  "version": "1.0.0",
+  "description": "Desafio back-end pleno para",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "OtavioESP",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
